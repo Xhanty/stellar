@@ -1,35 +1,31 @@
 <main class="min-h-screen bg-gray1">
-    <section
-        class="grid grid-cols-[0.29fr_0.41fr_0.3fr] justify-center gap-[7.5rem] px-[4.5rem] pb-[3.25rem] pt-[40px] tablet:grid-cols-1 tablet:gap-0 tablet:px-[32px] tablet:pb-[56px] tablet:pt-[22px]">
-        <div>
-            FILTROS
-        </div>
-        <div class="flex flex-col items-center gap-[1.5rem] tablet:gap-[4.5rem]">
+    <section class="grid grid-cols-3 justify-center">
+        <div>FILTROS</div>
+        <div class="flex flex-col items-center gap-[1.5rem]">
             <div class="relative w-full">
-                <img src="/images/black-21x30.svg" alt="black-21x30" class="relative size-full" />
+                <img src="/images/black-21x30.svg" alt="Fondo" class="relative size-full" />
                 <div class="absolute left-1/2 -translate-x-1/2 top-[11.5%] size-[21.2rem]">
                     <div id="map-container" class="size-full">
                         <div id="map" class="flex !h-full items-center justify-center" style="height: 411px">
-                            <canvas width="615.75" height="616.5" style="cursor: default !important"></canvas>
+                            <!-- <canvas width="615.75" height="616.5" style="cursor: default !important"></canvas> -->
                         </div>
                     </div>
                 </div>
                 <div
-                    class="absolute left-1/2 grid w-4/5 -translate-x-1/2 grid-rows-[1fr_auto] overflow-hidden whitespace-nowrap text-white bottom-[3.5rem] h-[11.7rem] tablet:bottom-[10rem] tablet:h-[32rem]">
+                    class="absolute left-1/2 grid w-4/5 -translate-x-1/2 grid-rows-[1fr_auto] overflow-hidden whitespace-nowrap text-white bottom-[3.5rem] h-[8rem]">
                     <h3
-                        class="flex items-center justify-center truncate whitespace-pre text-center font-bold tablet:text-[1.78em] text-[0.65rem] leading-[1.2rem] tracking-[0.18em] tablet:leading-[3.3rem]">
+                        class="flex items-center justify-center truncate whitespace-pre text-center font-bold text-[0.95rem]">
                         Escrito en las estrellas
                     </h3>
                     <div
-                        class="flex min-h-[2.85rem] flex-col justify-end truncate text-center tracking-[0.15em] text-[0.5rem] leading-[1.05rem] tablet:text-[1.5rem] tablet:leading-[2.8rem]">
-                        <span><span>Hola mundo</span></span><span><span>sobre </span></span><span><span>16 de
-                                junio de 2025 a las 00:00</span></span>
+                        class="flex min-h-[2.85rem] flex-col justify-end truncate text-center tracking-[0.15em] text-[0.7rem] leading-[1.05rem]">
+                        <span class="leading-5">El cielo estrellado</span>
+                        <span class="leading-5">Medellín - Antioquia</span>
+                        <span class="leading-5">16 de junio de 2025</span>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="flex w-full flex-col gap-10">
-            TEXTO
-        </div>
+        <div>TEXTO</div>
     </section>
 </main>
